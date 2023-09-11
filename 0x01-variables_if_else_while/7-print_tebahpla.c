@@ -1,23 +1,20 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry - point
  *
- * Description: pin a-z in reverse
- *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char ch = 'z';
+	char c;
 
-	while (c >= 'a')
-	{
-		putchar(ch);
-		ch--;
-	}
+	c = 'z';
+	while
+		(c >= 'a') {
+			putchar(c);
+			c--;
+		}
 	putchar('\n');
-
 	return (0);
 }
