@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prog prints all possible different combinations of these digits
+ * main -  prints all possible different combinations of these digits
  * Return: Always 0 (Success)
  */
 
@@ -31,5 +31,7 @@ int main(void)
 			}
 		}
 	}
+
+	putchar('\n');
 	return (0);
 }
