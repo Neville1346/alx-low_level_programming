@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - function to print combination of two numbers
+ * main - prog prints all possible different combinations of two digits
  *
  * Return: Always 0 (Success)
  */
@@ -18,7 +18,7 @@ int main(void)
 			{
 				putchar(tens);
 				putchar(ones);
-				if (!(ones == '9' && tens == '8'8))
+				if (!(ones == '9' && tens == '8'))
 				{
 					putchar(',');
 					putchar(' ');
