@@ -1,35 +1,35 @@
 #include <stdio.h>
-#include "main.h"
-
 /**
- * main - func prints the number from 1-100, but for multiples of three,
- *        Fizz is printed instead of the number, for multiples of five,
- *        Buzz, and for multiples of both three and five, FizzBuzz.
+ * main -print 1 to 100 and fizzbuss
  *
- * Return: Always 0
+ * Return: 0
  */
 int main(void)
 {
-	int num;
+	int i;
 
-	for (num = 1; num  < 100; num++)
+	for (i = 1; i < 100; i++)
 	{
-		if ((num % 3) == 0 && (num % 5) == 0)
-			printf("FizzBuzz");
-
-		else if ((num % 3) == 0)
-			printf("Fizz");
-
-		else if ((num % 5) == 0)
-			printf("Buzz");
+		if ((i % 3) == 0 && (i % 5) == 0)
+		{
+		printf("FizzBuzz ");
+		}
+		else if (i % 3 == 0)
+		{
+		printf("Fizz ");
+		}
+		else if (i % 5 == 0)
+		{
+		printf("Buzz ");
+		}
 		else
-			printf("%d", num);
+		{
+		printf("%d ", i);
+		}
 
-		if (num == 100)
-		continue;
-		printf(" ");
+
 	}
-
+	printf("Buzz");
 	printf("\n");
 
 	return (0);
